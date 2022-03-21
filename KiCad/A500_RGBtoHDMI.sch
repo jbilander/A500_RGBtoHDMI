@@ -85,7 +85,7 @@ L A500_RGBtoHDMI:Denise U1
 U 1 1 623BE5C5
 P 2950 3100
 F 0 "U1" H 2950 4665 50  0000 C CNN
-F 1 "Denise_MB_pins" H 2950 4574 50  0000 C CNN
+F 1 "Denise_MB_PinHeader" H 2950 4574 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_LongPads" H 2900 1600 50  0001 C CNN
 F 3 "" H 2900 1600 50  0001 C CNN
 	1    2950 3100
@@ -93,13 +93,41 @@ F 3 "" H 2900 1600 50  0001 C CNN
 $EndComp
 $Comp
 L A500_RGBtoHDMI:Denise U2
-U 1 1 623C9B51
-P 4950 3100
-F 0 "U2" H 4950 4665 50  0000 C CNN
-F 1 "Denise_SocketOnAdapter" H 4950 4574 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4900 1600 50  0001 C CNN
-F 3 "" H 4900 1600 50  0001 C CNN
-	1    4950 3100
+U 1 1 623E379A
+P 4700 3100
+F 0 "U2" H 4700 4665 50  0000 C CNN
+F 1 "Denise_MB_PinSocket" H 4700 4574 50  0000 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4650 1600 50  0001 C CNN
+F 3 "" H 4650 1600 50  0001 C CNN
+	1    4700 3100
 	1    0    0    -1  
 $EndComp
+Text GLabel 2400 1800 0    50   BiDi ~ 0
+D6
+Text GLabel 4150 1800 0    50   BiDi ~ 0
+D6
+Text GLabel 2400 1900 0    50   BiDi ~ 0
+D5
+Text GLabel 4150 1900 0    50   BiDi ~ 0
+D5
+Text GLabel 2400 2000 0    50   BiDi ~ 0
+D4
+Text GLabel 2400 2100 0    50   BiDi ~ 0
+D3
+Text GLabel 2400 2200 0    50   BiDi ~ 0
+D2
+Text GLabel 2400 2300 0    50   BiDi ~ 0
+D1
+Text GLabel 2400 2400 0    50   BiDi ~ 0
+D0
+Text GLabel 4150 2000 0    50   BiDi ~ 0
+D4
+Text GLabel 4150 2100 0    50   BiDi ~ 0
+D3
+Text GLabel 4150 2200 0    50   BiDi ~ 0
+D2
+Text GLabel 4150 2300 0    50   BiDi ~ 0
+D1
+Text GLabel 4150 2400 0    50   BiDi ~ 0
+D0
 $EndSCHEMATC
