@@ -76,10 +76,6 @@ F 3 "~" H 6850 3050 50  0001 C CNN
 	1    6850 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 2150 0    50   Input ~ 0
-VCC
-Text GLabel 7150 2150 2    50   Input ~ 0
-GND
 $Comp
 L A500_RGBtoHDMI:Denise U1
 U 1 1 623BE5C5
@@ -96,7 +92,7 @@ L A500_RGBtoHDMI:Denise U2
 U 1 1 623E379A
 P 4700 3100
 F 0 "U2" H 4700 4665 50  0000 C CNN
-F 1 "Denise_MB_PinSocket" H 4700 4574 50  0000 C CNN
+F 1 "Denise_Socket" H 4700 4574 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4650 1600 50  0001 C CNN
 F 3 "" H 4650 1600 50  0001 C CNN
 	1    4700 3100
@@ -130,4 +126,168 @@ Text GLabel 4150 2300 0    50   BiDi ~ 0
 D1
 Text GLabel 4150 2400 0    50   BiDi ~ 0
 D0
+Text GLabel 2400 2550 0    50   Output ~ 0
+M1H
+Text GLabel 2400 2650 0    50   Output ~ 0
+M0H
+Text GLabel 4150 2550 0    50   Input ~ 0
+M1H
+Text GLabel 4150 2650 0    50   Input ~ 0
+M0H
+Text GLabel 2400 3000 0    50   Output ~ 0
+RGA6
+Text GLabel 2400 3100 0    50   Output ~ 0
+RGA5
+Text GLabel 2400 3200 0    50   Output ~ 0
+RGA4
+Text GLabel 2400 3300 0    50   Output ~ 0
+RGA3
+Text GLabel 2400 3400 0    50   Output ~ 0
+RGA2
+Text GLabel 2400 3500 0    50   Output ~ 0
+RGA1
+Text GLabel 2400 2900 0    50   Output ~ 0
+RGA7
+Text GLabel 2400 2800 0    50   Output ~ 0
+RGA8
+Text GLabel 4150 3000 0    50   Input ~ 0
+RGA6
+Text GLabel 4150 3100 0    50   Input ~ 0
+RGA5
+Text GLabel 4150 3200 0    50   Input ~ 0
+RGA4
+Text GLabel 4150 3300 0    50   Input ~ 0
+RGA3
+Text GLabel 4150 3400 0    50   Input ~ 0
+RGA2
+Text GLabel 4150 3500 0    50   Input ~ 0
+RGA1
+Text GLabel 4150 2900 0    50   Input ~ 0
+RGA7
+Text GLabel 4150 2800 0    50   Input ~ 0
+RGA8
+Text GLabel 4150 3650 0    50   Output ~ 0
+BURST
+Text GLabel 2400 3650 0    50   Input ~ 0
+BURST
+Text GLabel 2400 3800 0    50   Input ~ 0
+VCC
+Text GLabel 4150 3800 0    50   Input ~ 0
+VCC
+Text GLabel 2400 4050 0    50   Input ~ 0
+R1
+Text GLabel 2400 3950 0    50   Input ~ 0
+R0
+Text GLabel 2400 4250 0    50   Input ~ 0
+R3
+Text GLabel 2400 4150 0    50   Input ~ 0
+R2
+Text GLabel 2400 4350 0    50   Input ~ 0
+B0
+Text GLabel 4150 4050 0    50   Output ~ 0
+R1
+Text GLabel 4150 3950 0    50   Output ~ 0
+R0
+Text GLabel 4150 4250 0    50   Output ~ 0
+R3
+Text GLabel 4150 4150 0    50   Output ~ 0
+R2
+Text GLabel 4150 4350 0    50   Output ~ 0
+B0
+Text GLabel 3500 3950 2    50   Input ~ 0
+G1
+Text GLabel 3500 4050 2    50   Input ~ 0
+G0
+Text GLabel 3500 4250 2    50   Input ~ 0
+B2
+Text GLabel 3500 4150 2    50   Input ~ 0
+B3
+Text GLabel 3500 4350 2    50   Input ~ 0
+B1
+Text GLabel 3500 3750 2    50   Input ~ 0
+G3
+Text GLabel 3500 3850 2    50   Input ~ 0
+G2
+Text GLabel 5250 3950 2    50   Output ~ 0
+G1
+Text GLabel 5250 4050 2    50   Output ~ 0
+G0
+Text GLabel 5250 4250 2    50   Output ~ 0
+B2
+Text GLabel 5250 4150 2    50   Output ~ 0
+B3
+Text GLabel 5250 4350 2    50   Output ~ 0
+B1
+Text GLabel 5250 3750 2    50   Output ~ 0
+G3
+Text GLabel 5250 3850 2    50   Output ~ 0
+G2
+Text GLabel 5250 3550 2    50   Input ~ 0
+CBL
+Text GLabel 3500 3550 2    50   Output ~ 0
+CBL
+Text GLabel 5250 3450 2    50   Output ~ 0
+ZD
+Text GLabel 3500 3450 2    50   Input ~ 0
+ZD
+Text GLabel 5250 3350 2    50   Input ~ 0
+CDAC
+Text GLabel 3500 3350 2    50   Output ~ 0
+CDAC
+Text GLabel 3500 3250 2    50   Output ~ 0
+C7M
+Text GLabel 5250 3250 2    50   Input ~ 0
+C7M
+Text GLabel 3500 3150 2    50   Output ~ 0
+CCK
+Text GLabel 5250 3150 2    50   Input ~ 0
+CCK
+Text GLabel 3500 3000 2    50   Input ~ 0
+GND
+Text GLabel 5250 3000 2    50   Input ~ 0
+GND
+Text GLabel 3500 2750 2    50   Output ~ 0
+M1V
+Text GLabel 3500 2850 2    50   Output ~ 0
+M0V
+Text GLabel 5250 2750 2    50   Input ~ 0
+M1V
+Text GLabel 5250 2850 2    50   Input ~ 0
+M0V
+Text GLabel 3500 1800 2    50   BiDi ~ 0
+D7
+Text GLabel 3500 1900 2    50   BiDi ~ 0
+D8
+Text GLabel 3500 2000 2    50   BiDi ~ 0
+D9
+Text GLabel 3500 2100 2    50   BiDi ~ 0
+D10
+Text GLabel 3500 2200 2    50   BiDi ~ 0
+D11
+Text GLabel 3500 2300 2    50   BiDi ~ 0
+D12
+Text GLabel 3500 2400 2    50   BiDi ~ 0
+D13
+Text GLabel 3500 2500 2    50   BiDi ~ 0
+D14
+Text GLabel 3500 2600 2    50   BiDi ~ 0
+D15
+Text GLabel 5250 1800 2    50   BiDi ~ 0
+D7
+Text GLabel 5250 1900 2    50   BiDi ~ 0
+D8
+Text GLabel 5250 2000 2    50   BiDi ~ 0
+D9
+Text GLabel 5250 2100 2    50   BiDi ~ 0
+D10
+Text GLabel 5250 2200 2    50   BiDi ~ 0
+D11
+Text GLabel 5250 2300 2    50   BiDi ~ 0
+D12
+Text GLabel 5250 2400 2    50   BiDi ~ 0
+D13
+Text GLabel 5250 2500 2    50   BiDi ~ 0
+D14
+Text GLabel 5250 2600 2    50   BiDi ~ 0
+D15
 $EndSCHEMATC
