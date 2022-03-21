@@ -290,4 +290,84 @@ Text GLabel 5250 2500 2    50   BiDi ~ 0
 D14
 Text GLabel 5250 2600 2    50   BiDi ~ 0
 D15
+Text GLabel 7150 2150 2    50   Input ~ 0
+VCC
+Text GLabel 7150 2250 2    50   Input ~ 0
+VCC
+Text GLabel 6650 2150 0    50   Input ~ 0
+3V3
+Text GLabel 7150 2350 2    50   Input ~ 0
+GND
+Text GLabel 6650 2550 0    50   Input ~ 0
+GND
+Text GLabel 7150 2750 2    50   Input ~ 0
+GND
+Text GLabel 7150 3050 2    50   Input ~ 0
+GND
+Text GLabel 6650 3350 0    50   Input ~ 0
+GND
+Text GLabel 7150 3550 2    50   Input ~ 0
+GND
+Text GLabel 7150 3750 2    50   Input ~ 0
+GND
+Text GLabel 6650 4050 0    50   Input ~ 0
+GND
+Text GLabel 6650 2250 0    50   BiDi ~ 0
+GPIO2
+Text GLabel 6650 2350 0    50   BiDi ~ 0
+GPIO3
+Text GLabel 6650 2450 0    50   BiDi ~ 0
+GPIO4
+Text GLabel 7150 2450 2    50   BiDi ~ 0
+GPIO14
+Text GLabel 7150 2550 2    50   BiDi ~ 0
+GPIO15
+Text GLabel 6650 2650 0    50   BiDi ~ 0
+GPIO17
+Text GLabel 7150 2650 2    50   BiDi ~ 0
+GPIO18
+Text GLabel 6650 2750 0    50   BiDi ~ 0
+GPIO27
+Text GLabel 6650 2850 0    50   BiDi ~ 0
+GPIO22
+Text GLabel 7150 2850 2    50   BiDi ~ 0
+GPIO23
+Text GLabel 7150 2950 2    50   BiDi ~ 0
+GPIO24
+Text GLabel 6650 2950 0    50   Input ~ 0
+3V3
+Text GLabel 6650 3050 0    50   BiDi ~ 0
+GPIO10
+Text GLabel 6650 3150 0    50   BiDi ~ 0
+GPIO9
+Text GLabel 6650 3250 0    50   BiDi ~ 0
+GPIO11
+Text GLabel 7150 3150 2    50   BiDi ~ 0
+GPIO25
+Text GLabel 7150 3250 2    50   BiDi ~ 0
+GPIO8
+Text GLabel 7150 3350 2    50   BiDi ~ 0
+GPIO7
+Text GLabel 6650 3450 0    50   BiDi ~ 0
+GPIO0
+Text GLabel 7150 3450 2    50   BiDi ~ 0
+GPIO1
+Text GLabel 6650 3550 0    50   BiDi ~ 0
+GPIO5
+Text GLabel 6650 3650 0    50   BiDi ~ 0
+GPIO6
+Text GLabel 7150 3650 2    50   BiDi ~ 0
+GPIO12
+Text GLabel 6650 3750 0    50   BiDi ~ 0
+GPIO13
+Text GLabel 6650 3850 0    50   BiDi ~ 0
+GPIO19
+Text GLabel 7150 3850 2    50   BiDi ~ 0
+GPIO16
+Text GLabel 6650 3950 0    50   BiDi ~ 0
+GPIO26
+Text GLabel 7150 3950 2    50   BiDi ~ 0
+GPIO20
+Text GLabel 7150 4050 2    50   BiDi ~ 0
+GPIO21
 $EndSCHEMATC
