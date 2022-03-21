@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name A500_RGBtoHDMI)(type KiCad)(uri ${KIPRJMOD}/A500_RGBtoHDMI.pretty)(options "")(descr ""))
+)

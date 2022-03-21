@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name A500_RGBtoHDMI)(type Legacy)(uri ${KIPRJMOD}/A500_RGBtoHDMI.lib)(options "")(descr ""))
+)
