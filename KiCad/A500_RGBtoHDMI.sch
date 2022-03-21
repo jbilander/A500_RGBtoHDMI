@@ -77,10 +77,10 @@ F 3 "~" H 6850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L A500_RGBtoHDMI:Denise U1
+L A500_RGBtoHDMI:Denise U3
 U 1 1 623BE5C5
 P 2950 3100
-F 0 "U1" H 2950 4665 50  0000 C CNN
+F 0 "U3" H 2950 4665 50  0000 C CNN
 F 1 "Denise_MB_PinHeader" H 2950 4574 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_LongPads" H 2900 1600 50  0001 C CNN
 F 3 "" H 2900 1600 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "" H 2900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L A500_RGBtoHDMI:Denise U2
+L A500_RGBtoHDMI:Denise U1
 U 1 1 623E379A
 P 4700 3100
-F 0 "U2" H 4700 4665 50  0000 C CNN
+F 0 "U1" H 4700 4665 50  0000 C CNN
 F 1 "Denise_Socket" H 4700 4574 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4650 1600 50  0001 C CNN
 F 3 "" H 4650 1600 50  0001 C CNN
@@ -294,8 +294,6 @@ Text GLabel 7150 2150 2    50   Input ~ 0
 VCC
 Text GLabel 7150 2250 2    50   Input ~ 0
 VCC
-Text GLabel 6650 2150 0    50   Input ~ 0
-3V3
 Text GLabel 7150 2350 2    50   Input ~ 0
 GND
 Text GLabel 6650 2550 0    50   Input ~ 0
@@ -334,8 +332,6 @@ Text GLabel 7150 2850 2    50   BiDi ~ 0
 GPIO23
 Text GLabel 7150 2950 2    50   BiDi ~ 0
 GPIO24
-Text GLabel 6650 2950 0    50   Input ~ 0
-3V3
 Text GLabel 6650 3050 0    50   BiDi ~ 0
 GPIO10
 Text GLabel 6650 3150 0    50   BiDi ~ 0
@@ -370,4 +366,76 @@ Text GLabel 7150 3950 2    50   BiDi ~ 0
 GPIO20
 Text GLabel 7150 4050 2    50   BiDi ~ 0
 GPIO21
+$Comp
+L A500_RGBtoHDMI:XC9572XL-VQ64 U2
+U 1 1 623D7A48
+P 8800 3250
+F 0 "U2" H 8800 3350 50  0000 C CNN
+F 1 "XC9572XL-VQ64" H 8800 3250 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" V 9100 3150 50  0001 C CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf" H 8800 3250 50  0001 C CNN
+	1    8800 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 5050 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8350 5050 8450 5050
+Connection ~ 8450 5050
+Wire Wire Line
+	8450 5050 8550 5050
+Connection ~ 8550 5050
+Wire Wire Line
+	8550 5050 8650 5050
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 6241CCF9
+P 10150 5050
+F 0 "J2" V 10114 4662 50  0000 R CNN
+F 1 "Conn_01x06" V 10023 4662 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10150 5050 50  0001 C CNN
+F 3 "~" H 10150 5050 50  0001 C CNN
+	1    10150 5050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9950 5250 3    50   Input ~ 0
+TMS
+Text GLabel 10050 5250 3    50   Input ~ 0
+TDI
+Text GLabel 10150 5250 3    50   Input ~ 0
+TDO
+Text GLabel 10250 5250 3    50   Input ~ 0
+TCK
+Text GLabel 10350 5250 3    50   Input ~ 0
+GND
+Text GLabel 10450 5250 3    50   Input ~ 0
+3V3
+Text GLabel 8950 5050 3    50   Input ~ 0
+TDO
+Text GLabel 9050 5050 3    50   Input ~ 0
+TCK
+Text GLabel 9150 5050 3    50   Input ~ 0
+TMS
+Text GLabel 9250 5050 3    50   Input ~ 0
+TDI
+NoConn ~ 6650 2150
+NoConn ~ 6650 2950
+Text GLabel 8700 1550 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8700 1550 8800 1550
+Connection ~ 8800 1550
+Wire Wire Line
+	8800 1550 8900 1550
+Connection ~ 8900 1550
+Wire Wire Line
+	8900 1550 9000 1550
+Text GLabel 7850 3600 0    50   Input ~ 0
+R1
+Text GLabel 7850 3500 0    50   Input ~ 0
+R0
+Text GLabel 7850 3800 0    50   Input ~ 0
+R3
+Text GLabel 7850 3700 0    50   Input ~ 0
+R2
 $EndSCHEMATC
