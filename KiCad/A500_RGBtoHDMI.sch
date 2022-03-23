@@ -68,12 +68,12 @@ GND
 $Comp
 L A500_RGBtoHDMI:RPi_Zero_Conn_02x20_Odd_Even J1
 U 1 1 62387983
-P 6550 3050
-F 0 "J1" H 6600 4167 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 6600 4076 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 6550 3050 50  0001 C CNN
-F 3 "~" H 6550 3050 50  0001 C CNN
-	1    6550 3050
+P 6900 3350
+F 0 "J1" H 6950 4467 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 6950 4376 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 6900 3350 50  0001 C CNN
+F 3 "~" H 6900 3350 50  0001 C CNN
+	1    6900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -290,193 +290,200 @@ Text GLabel 5250 2500 2    50   BiDi ~ 0
 D14
 Text GLabel 5250 2600 2    50   BiDi ~ 0
 D15
-Text GLabel 7100 2150 2    50   Input ~ 0
+Text GLabel 7450 2450 2    50   Input ~ 0
 VCC
-Text GLabel 7100 2250 2    50   Input ~ 0
+Text GLabel 7450 2550 2    50   Input ~ 0
 VCC
-Text GLabel 7100 2350 2    50   Input ~ 0
+Text GLabel 7450 2650 2    50   Input ~ 0
 GND
-Text GLabel 6100 2550 0    50   Input ~ 0
+Text GLabel 6450 2850 0    50   Input ~ 0
 GND
-Text GLabel 7100 2750 2    50   Input ~ 0
+Text GLabel 7450 3050 2    50   Input ~ 0
 GND
-Text GLabel 7100 3050 2    50   Input ~ 0
+Text GLabel 7450 3350 2    50   Input ~ 0
 GND
-Text GLabel 6100 3350 0    50   Input ~ 0
+Text GLabel 6450 3650 0    50   Input ~ 0
 GND
-Text GLabel 7100 3550 2    50   Input ~ 0
+Text GLabel 7450 3850 2    50   Input ~ 0
 GND
-Text GLabel 7100 3750 2    50   Input ~ 0
+Text GLabel 7450 4050 2    50   Input ~ 0
 GND
-Text GLabel 6100 4050 0    50   Input ~ 0
+Text GLabel 6450 4350 0    50   Input ~ 0
 GND
-Text GLabel 6100 2650 0    50   Input ~ 0
-PSYNC
-Text GLabel 7100 2650 2    50   Output ~ 0
+Text GLabel 6450 2950 0    50   Input ~ 0
+Pi_CLK
+Text GLabel 7450 2950 2    50   Output ~ 0
 VERSION
-Text GLabel 7100 3950 2    50   Output ~ 0
-SPCLK
-Text GLabel 7100 4050 2    50   Output ~ 0
+Text GLabel 7450 4250 2    50   Output ~ 0
+TCK_SPCLK
+Text GLabel 7450 4350 2    50   Output ~ 0
 CLK
-Text GLabel 8550 4900 3    50   Input ~ 0
+Text GLabel 9050 4900 3    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x06 JTAG1
 U 1 1 6241CCF9
-P 10150 5050
-F 0 "JTAG1" V 10114 4662 50  0000 R CNN
-F 1 "Conn_01x06" V 10023 4662 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10150 5050 50  0001 C CNN
-F 3 "~" H 10150 5050 50  0001 C CNN
-	1    10150 5050
+P 7450 4650
+F 0 "JTAG1" V 7414 4262 50  0000 R CNN
+F 1 "Conn_01x06" V 7323 4262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7450 4650 50  0001 C CNN
+F 3 "~" H 7450 4650 50  0001 C CNN
+	1    7450 4650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9950 5250 3    50   Input ~ 0
-TMS
-Text GLabel 10050 5250 3    50   Input ~ 0
-TDI
-Text GLabel 10150 5250 3    50   Input ~ 0
+Text GLabel 7450 4850 3    50   Input ~ 0
 TDO
-Text GLabel 10250 5250 3    50   Input ~ 0
-TCK
-Text GLabel 10350 5250 3    50   Input ~ 0
+Text GLabel 7650 4850 3    50   Input ~ 0
 GND
-Text GLabel 10450 5250 3    50   Input ~ 0
+Text GLabel 7750 4850 3    50   Input ~ 0
 3V3
-Text GLabel 8900 1400 1    50   Input ~ 0
+Text GLabel 9400 1400 1    50   Input ~ 0
 3V3
-Text GLabel 6100 3250 0    50   Input ~ 0
+Text GLabel 6450 3550 0    50   Input ~ 0
 R1_3V3
-Text GLabel 6100 3050 0    50   Input ~ 0
+Text GLabel 6450 3350 0    50   Input ~ 0
 R0_3V3
-Text GLabel 6100 3750 0    50   Input ~ 0
+Text GLabel 6450 4050 0    50   Input ~ 0
 R3_3V3
-Text GLabel 7100 3650 2    50   Input ~ 0
+Text GLabel 7450 3950 2    50   Input ~ 0
 R2_3V3
-NoConn ~ 6100 2150
-NoConn ~ 6100 2950
-Text GLabel 6100 2250 0    50   Input ~ 0
+NoConn ~ 6450 2450
+NoConn ~ 6450 3250
+Text GLabel 6450 2550 0    50   Input ~ 0
 B0_3V3
-Text GLabel 7100 3350 2    50   Input ~ 0
+Text GLabel 7450 3650 2    50   Input ~ 0
 G1_3V3
-Text GLabel 6100 3650 0    50   Input ~ 0
+Text GLabel 6450 3950 0    50   Input ~ 0
 G0_3V3
-Text GLabel 6100 2450 0    50   Input ~ 0
+Text GLabel 6450 2750 0    50   Input ~ 0
 B2_3V3
-Text GLabel 6100 3550 0    50   Input ~ 0
+Text GLabel 6450 3850 0    50   Input ~ 0
 B3_3V3
-Text GLabel 6100 2350 0    50   Input ~ 0
+Text GLabel 6450 2650 0    50   Input ~ 0
 B1_3V3
-Text GLabel 6100 3150 0    50   Input ~ 0
+Text GLabel 6450 3450 0    50   Input ~ 0
 G3_3V3
-Text GLabel 7100 3250 2    50   Input ~ 0
+Text GLabel 7450 3550 2    50   Input ~ 0
 G2_3V3
-Text GLabel 9450 4900 3    50   Input ~ 0
-TDI
-Text GLabel 9350 4900 3    50   Input ~ 0
-TMS
-Text GLabel 9250 4900 3    50   Input ~ 0
-TCK
-Text GLabel 9150 4900 3    50   Input ~ 0
+Text GLabel 9650 4900 3    50   Input ~ 0
 TDO
-Text GLabel 9800 4250 2    50   Input ~ 0
+Text GLabel 10300 4250 2    50   Input ~ 0
 R1
-Text GLabel 9800 3750 2    50   Input ~ 0
+Text GLabel 10300 3750 2    50   Input ~ 0
 R0
-Text GLabel 9800 4150 2    50   Input ~ 0
+Text GLabel 10300 4150 2    50   Input ~ 0
 R3
-Text GLabel 9800 3950 2    50   Input ~ 0
+Text GLabel 10300 3950 2    50   Input ~ 0
 R2
-Text GLabel 9800 4350 2    50   Input ~ 0
+Text GLabel 10300 4350 2    50   Input ~ 0
 B0
-Text GLabel 8200 3550 0    50   Input ~ 0
+Text GLabel 8700 3550 0    50   Input ~ 0
 G1
-Text GLabel 8200 3250 0    50   Input ~ 0
+Text GLabel 8700 3250 0    50   Input ~ 0
 G0
-Text GLabel 8200 3350 0    50   Input ~ 0
+Text GLabel 8700 3350 0    50   Input ~ 0
 B2
-Text GLabel 8200 3450 0    50   Input ~ 0
+Text GLabel 8700 3450 0    50   Input ~ 0
 B3
-Text GLabel 9800 4450 2    50   Input ~ 0
+Text GLabel 10300 4450 2    50   Input ~ 0
 B1
-Text GLabel 8200 3750 0    50   Input ~ 0
+Text GLabel 8700 3750 0    50   Input ~ 0
 G3
-Text GLabel 8200 3650 0    50   Input ~ 0
+Text GLabel 8700 3650 0    50   Input ~ 0
 G2
 $Comp
 L A500_RGBtoHDMI:XC9572XL-VQ64 U2
 U 1 1 623D912B
-P 9000 3100
-F 0 "U2" H 9000 3250 50  0000 C CNN
-F 1 "XC9572XL-VQ64" H 9000 3100 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" V 9300 3000 50  0001 C CNN
-F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf" H 9000 3100 50  0001 C CNN
-	1    9000 3100
+P 9500 3100
+F 0 "U2" H 9500 3250 50  0000 C CNN
+F 1 "XC9572XL-VQ64" H 9500 3100 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" V 9800 3000 50  0001 C CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf" H 9500 3100 50  0001 C CNN
+	1    9500 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 4900 8650 4900
-Connection ~ 8650 4900
+	9050 4900 9150 4900
+Connection ~ 9150 4900
 Wire Wire Line
-	8650 4900 8750 4900
-Connection ~ 8750 4900
+	9150 4900 9250 4900
+Connection ~ 9250 4900
 Wire Wire Line
-	8750 4900 8850 4900
+	9250 4900 9350 4900
 Wire Wire Line
-	8900 1400 9000 1400
-Connection ~ 9000 1400
+	9400 1400 9500 1400
+Connection ~ 9500 1400
 Wire Wire Line
-	9000 1400 9100 1400
-Connection ~ 9100 1400
+	9500 1400 9600 1400
+Connection ~ 9600 1400
 Wire Wire Line
-	9100 1400 9200 1400
-Text GLabel 8200 3950 0    50   Output ~ 0
+	9600 1400 9700 1400
+Text GLabel 8700 3950 0    50   Output ~ 0
 B0_3V3
-Text GLabel 8200 4150 0    50   Output ~ 0
+Text GLabel 8700 4150 0    50   Output ~ 0
 B2_3V3
-Text GLabel 8200 4050 0    50   Output ~ 0
+Text GLabel 8700 4050 0    50   Output ~ 0
 B1_3V3
-Text GLabel 8200 2500 0    50   Input ~ 0
-SPCLK
-Text GLabel 8200 2300 0    50   Input ~ 0
+Text GLabel 8700 2300 0    50   Input ~ 0
 CLK
-NoConn ~ 7100 2450
-NoConn ~ 7100 2550
-Text GLabel 8200 3850 0    50   Input ~ 0
+NoConn ~ 7450 2750
+NoConn ~ 7450 2850
+Text GLabel 8700 3850 0    50   Input ~ 0
 VERSION
-Text GLabel 8200 2700 0    50   Input ~ 0
+Text GLabel 8700 2700 0    50   Input ~ 0
 CSYNC
-Text GLabel 8200 2100 0    50   Output ~ 0
+Text GLabel 8700 2100 0    50   Output ~ 0
 B3_3V3
-Text GLabel 8200 4250 0    50   Output ~ 0
-PSYNC
-NoConn ~ 6100 2750
-NoConn ~ 6100 2850
-Text GLabel 8200 4350 0    50   Output ~ 0
+Text GLabel 8700 4250 0    50   Output ~ 0
+Pi_CLK
+NoConn ~ 6450 3050
+NoConn ~ 6450 3150
+Text GLabel 8700 4350 0    50   Output ~ 0
 CSYNC_3V3
-Text GLabel 7100 2850 2    50   Input ~ 0
+Text GLabel 7450 3150 2    50   Input ~ 0
 CSYNC_3V3
-NoConn ~ 7100 2950
-NoConn ~ 7100 3150
-Text GLabel 8200 4450 0    50   Output ~ 0
+NoConn ~ 7450 3450
+Text GLabel 8700 4450 0    50   Output ~ 0
 R0_3V3
-Text GLabel 8200 1700 0    50   Output ~ 0
+Text GLabel 8700 1700 0    50   Output ~ 0
 G3_3V3
-Text GLabel 8200 2000 0    50   Output ~ 0
+Text GLabel 8700 2000 0    50   Output ~ 0
 R1_3V3
-Text GLabel 8200 1800 0    50   Output ~ 0
+Text GLabel 8700 1800 0    50   Output ~ 0
 G2_3V3
-NoConn ~ 6100 3450
-NoConn ~ 7100 3450
-Text GLabel 8200 1900 0    50   Output ~ 0
+Text GLabel 8700 1900 0    50   Output ~ 0
 G1_3V3
-Text GLabel 8200 2200 0    50   Output ~ 0
+Text GLabel 8700 2200 0    50   Output ~ 0
 G0_3V3
-NoConn ~ 6100 3950
-NoConn ~ 6100 3850
-NoConn ~ 7100 3850
-Text GLabel 8200 2400 0    50   Input ~ 0
+NoConn ~ 6450 4250
+NoConn ~ 6450 4150
+NoConn ~ 7450 4150
+Text GLabel 8700 2400 0    50   Input ~ 0
 R2_3V3
-Text GLabel 8200 2800 0    50   Input ~ 0
+Text GLabel 8700 2800 0    50   Input ~ 0
 R3_3V3
+Text GLabel 7450 3250 2    50   Input ~ 0
+TDO
+Text GLabel 6450 3750 0    50   Output ~ 0
+TDI_SPDATA
+Text GLabel 7350 4850 3    50   Input ~ 0
+TDI_SPDATA
+Text GLabel 9950 4900 3    50   Input ~ 0
+TDI_SPDATA
+Text GLabel 10300 2300 2    50   Input ~ 0
+TDI_SPDATA
+Text GLabel 7450 3750 2    50   Output ~ 0
+TMS_CLKEN
+Text GLabel 7250 4850 3    50   Input ~ 0
+TMS_CLKEN
+Text GLabel 9850 4900 3    50   Input ~ 0
+TMS_CLKEN
+Text GLabel 10300 1800 2    50   Input ~ 0
+TMS_CLKEN
+Text GLabel 7550 4850 3    50   Input ~ 0
+TCK_SPCLK
+Text GLabel 9750 4900 3    50   Input ~ 0
+TCK_SPCLK
+Text GLabel 8700 2500 0    50   Input ~ 0
+TCK_SPCLK
 $EndSCHEMATC
