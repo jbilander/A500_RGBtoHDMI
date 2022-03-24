@@ -77,10 +77,10 @@ F 3 "~" H 6900 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L A500_RGBtoHDMI:Denise U3
+L A500_RGBtoHDMI:Denise U4
 U 1 1 623BE5C5
 P 2950 3100
-F 0 "U3" H 2950 4665 50  0000 C CNN
+F 0 "U4" H 2950 4665 50  0000 C CNN
 F 1 "Denise_MB_PinHeader" H 2950 4574 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_LongPads" H 2900 1600 50  0001 C CNN
 F 3 "" H 2900 1600 50  0001 C CNN
@@ -464,7 +464,7 @@ Text GLabel 8700 2800 0    50   Input ~ 0
 R3_3V3
 Text GLabel 7450 3250 2    50   Input ~ 0
 TDO
-Text GLabel 6450 3750 0    50   Output ~ 0
+Text GLabel 5900 3700 1    50   Output ~ 0
 TDI_SPDATA
 Text GLabel 7350 4850 3    50   Input ~ 0
 TDI_SPDATA
@@ -486,4 +486,130 @@ Text GLabel 9750 4900 3    50   Input ~ 0
 TCK_SPCLK
 Text GLabel 8700 2500 0    50   Input ~ 0
 TCK_SPCLK
+NoConn ~ 8700 2600
+NoConn ~ 8700 2900
+NoConn ~ 10300 1700
+NoConn ~ 10300 1900
+NoConn ~ 10300 2000
+NoConn ~ 10300 2100
+NoConn ~ 10300 2200
+NoConn ~ 10300 2400
+NoConn ~ 10300 2500
+NoConn ~ 10300 2600
+NoConn ~ 10300 2700
+NoConn ~ 10300 2800
+NoConn ~ 10300 2900
+NoConn ~ 10300 3000
+NoConn ~ 10300 3350
+NoConn ~ 10300 3450
+NoConn ~ 10300 3550
+NoConn ~ 10300 3650
+NoConn ~ 10300 3850
+NoConn ~ 10300 4050
+$Comp
+L A500_RGBtoHDMI:LM1117-3.3 U3
+U 1 1 6246B1F1
+P 6950 1200
+F 0 "U3" H 6950 1442 50  0000 C CNN
+F 1 "LM1117-3.3" H 6950 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 6950 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 6950 1200 50  0001 C CNN
+	1    6950 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 1200 0    50   Input ~ 0
+VCC
+Text GLabel 6950 850  1    50   Input ~ 0
+GND
+Wire Wire Line
+	6950 1500 6250 1500
+Wire Wire Line
+	6250 1500 6250 850 
+Wire Wire Line
+	7250 1300 7250 1200
+Wire Wire Line
+	7250 1200 7350 1200
+Connection ~ 7250 1200
+Text GLabel 7800 1200 2    50   Output ~ 0
+3V3
+$Comp
+L Device:C_Small C1
+U 1 1 6246F468
+P 6600 1100
+F 0 "C1" H 6400 1150 50  0000 L CNN
+F 1 "10uF" H 6350 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6600 1100 50  0001 C CNN
+F 3 "~" H 6600 1100 50  0001 C CNN
+	1    6600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 850  6600 850 
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 6650 1200
+Wire Wire Line
+	6500 1200 6600 1200
+Wire Wire Line
+	6600 1000 6600 850 
+Connection ~ 6600 850 
+$Comp
+L Device:C_Small C2
+U 1 1 62473099
+P 7350 1100
+F 0 "C2" H 7450 1150 50  0000 L CNN
+F 1 "10uF" H 7400 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7350 1100 50  0001 C CNN
+F 3 "~" H 7350 1100 50  0001 C CNN
+	1    7350 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 1200
+Wire Wire Line
+	7350 1200 7700 1200
+Wire Wire Line
+	7350 1000 7350 850 
+Wire Wire Line
+	6600 850  7350 850 
+$Comp
+L Device:C_Small C3
+U 1 1 62475F7C
+P 7700 1100
+F 0 "C3" H 7800 1150 50  0000 L CNN
+F 1 "0.1uF" H 7750 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7700 1100 50  0001 C CNN
+F 3 "~" H 7700 1100 50  0001 C CNN
+	1    7700 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 1200
+Wire Wire Line
+	7700 1200 7800 1200
+Wire Wire Line
+	7700 1000 7700 850 
+Wire Wire Line
+	7700 850  7350 850 
+Connection ~ 7350 850 
+$Comp
+L Device:R_Small R2
+U 1 1 624D6906
+P 5900 3900
+F 0 "R2" H 5750 3900 50  0000 L CNN
+F 1 "1k" V 5900 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3900 50  0001 C CNN
+F 3 "~" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3750 5900 3750
+Text GLabel 5900 4050 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5900 3700 5900 3750
+Connection ~ 5900 3750
+Wire Wire Line
+	5900 3750 5900 3800
+Wire Wire Line
+	5900 4000 5900 4050
 $EndSCHEMATC
