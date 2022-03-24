@@ -669,4 +669,22 @@ Wire Wire Line
 Wire Wire Line
 	8600 850  8300 850 
 Connection ~ 8300 850 
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 624ED77D
+P 7450 1650
+F 0 "J2" H 7530 1642 50  0000 L CNN
+F 1 "Conn_01x02" H 7530 1551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7450 1650 50  0001 C CNN
+F 3 "~" H 7450 1650 50  0001 C CNN
+	1    7450 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 1650 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	7250 1750 6950 1750
+Wire Wire Line
+	6950 1750 6950 1500
+Connection ~ 6950 1500
 $EndSCHEMATC
