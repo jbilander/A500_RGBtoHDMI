@@ -323,19 +323,19 @@ GND
 $Comp
 L Connector_Generic:Conn_01x06 JTAG1
 U 1 1 6241CCF9
-P 7450 4650
-F 0 "JTAG1" V 7414 4262 50  0000 R CNN
-F 1 "Conn_01x06" V 7323 4262 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7450 4650 50  0001 C CNN
-F 3 "~" H 7450 4650 50  0001 C CNN
-	1    7450 4650
+P 6900 4750
+F 0 "JTAG1" V 6864 4362 50  0000 R CNN
+F 1 "Conn_01x06" V 6773 4362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6900 4750 50  0001 C CNN
+F 3 "~" H 6900 4750 50  0001 C CNN
+	1    6900 4750
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7450 4850 3    50   Input ~ 0
+Text GLabel 6900 4950 3    50   Input ~ 0
 TDO
-Text GLabel 7650 4850 3    50   Input ~ 0
+Text GLabel 7100 4950 3    50   Input ~ 0
 GND
-Text GLabel 7750 4850 3    50   Input ~ 0
+Text GLabel 7200 4950 3    50   Input ~ 0
 3V3
 Text GLabel 9400 1400 1    50   Input ~ 0
 3V3
@@ -457,7 +457,6 @@ Text GLabel 8700 2200 0    50   Output ~ 0
 G0_3V3
 NoConn ~ 6450 4250
 NoConn ~ 6450 4150
-NoConn ~ 7450 4150
 Text GLabel 8700 2400 0    50   Input ~ 0
 R2_3V3
 Text GLabel 8700 2800 0    50   Input ~ 0
@@ -466,7 +465,7 @@ Text GLabel 7450 3250 2    50   Input ~ 0
 TDO
 Text GLabel 5900 3700 1    50   Output ~ 0
 TDI_SPDATA
-Text GLabel 7350 4850 3    50   Input ~ 0
+Text GLabel 6800 4950 3    50   Input ~ 0
 TDI_SPDATA
 Text GLabel 9950 4900 3    50   Input ~ 0
 TDI_SPDATA
@@ -474,13 +473,13 @@ Text GLabel 10300 2300 2    50   Input ~ 0
 TDI_SPDATA
 Text GLabel 7450 3750 2    50   Output ~ 0
 TMS_CLKEN
-Text GLabel 7250 4850 3    50   Input ~ 0
+Text GLabel 6700 4950 3    50   Input ~ 0
 TMS_CLKEN
 Text GLabel 9850 4900 3    50   Input ~ 0
 TMS_CLKEN
 Text GLabel 10300 1800 2    50   Input ~ 0
 TMS_CLKEN
-Text GLabel 7550 4850 3    50   Input ~ 0
+Text GLabel 7000 4950 3    50   Input ~ 0
 TCK_SPCLK
 Text GLabel 9750 4900 3    50   Input ~ 0
 TCK_SPCLK
@@ -588,17 +587,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 850  7350 850 
 Connection ~ 7350 850 
-$Comp
-L Device:R_Small R2
-U 1 1 624D6906
-P 5900 3900
-F 0 "R2" H 5750 3900 50  0000 L CNN
-F 1 "1k" V 5900 3850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3900 50  0001 C CNN
-F 3 "~" H 5900 3900 50  0001 C CNN
-	1    5900 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 3750 5900 3750
 Text GLabel 5900 4050 3    50   Input ~ 0
@@ -687,4 +675,50 @@ Wire Wire Line
 Wire Wire Line
 	6950 1750 6950 1500
 Connection ~ 6950 1500
+Wire Wire Line
+	7450 4150 8050 4150
+Wire Wire Line
+	8050 4150 8050 4000
+Text GLabel 8050 3700 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8050 3800 8050 3700
+$Comp
+L Device:R_Small R2
+U 1 1 624D6906
+P 5900 3900
+F 0 "R2" H 5750 3900 50  0000 L CNN
+F 1 "1k" V 5900 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3900 50  0001 C CNN
+F 3 "~" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 624FD62F
+P 8050 3900
+F 0 "R1" H 7900 3900 50  0000 L CNN
+F 1 "1k" V 8050 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8050 3900 50  0001 C CNN
+F 3 "~" H 8050 3900 50  0001 C CNN
+	1    8050 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 4950 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8050 4150 8050 4550
+Connection ~ 8050 4150
+$Comp
+L Jumper:Jumper_2_Open BT1
+U 1 1 62508B6C
+P 8050 4750
+F 0 "BT1" V 8000 4550 50  0000 L CNN
+F 1 "Jumper_2_Open" V 8100 4100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8050 4750 50  0001 C CNN
+F 3 "~" H 8050 4750 50  0001 C CNN
+	1    8050 4750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
