@@ -486,8 +486,6 @@ TCK_SPCLK
 Text GLabel 8700 2500 0    50   Input ~ 0
 TCK_SPCLK
 NoConn ~ 8700 2600
-NoConn ~ 8700 2900
-NoConn ~ 10300 1700
 NoConn ~ 10300 1900
 NoConn ~ 10300 2000
 NoConn ~ 10300 2100
@@ -721,4 +719,27 @@ F 3 "~" H 8050 4750 50  0001 C CNN
 	1    8050 4750
 	0    -1   -1   0   
 $EndComp
+Text GLabel 8300 2900 0    50   Input ~ 0
+DETECT
+NoConn ~ 10300 1700
+$Comp
+L Device:R_Small R3
+U 1 1 6252A94A
+P 8400 3100
+F 0 "R3" H 8250 3100 50  0000 L CNN
+F 1 "4.7k" H 8450 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 3100 50  0001 C CNN
+F 3 "~" H 8400 3100 50  0001 C CNN
+	1    8400 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8400 3200 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8700 2900 8400 2900
+Wire Wire Line
+	8400 3000 8400 2900
+Connection ~ 8400 2900
+Wire Wire Line
+	8400 2900 8300 2900
 $EndSCHEMATC
