@@ -125,3 +125,6 @@ xst/
 main_top_html/
 _ngo/
 _xmsgs/
+
+# ignore work output folder
+working/
