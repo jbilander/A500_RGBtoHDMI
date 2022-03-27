@@ -674,39 +674,21 @@ Wire Wire Line
 Connection ~ 6950 1500
 Wire Wire Line
 	7450 4150 8050 4150
-Wire Wire Line
-	8050 4150 8050 4000
-Text GLabel 8050 3700 1    50   Input ~ 0
-3V3
-Wire Wire Line
-	8050 3800 8050 3700
 $Comp
-L Device:R_Small R2
+L Device:R_Small R1
 U 1 1 624D6906
 P 5900 3900
-F 0 "R2" H 5750 3900 50  0000 L CNN
+F 0 "R1" H 5750 3900 50  0000 L CNN
 F 1 "1k" V 5900 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3900 50  0001 C CNN
 F 3 "~" H 5900 3900 50  0001 C CNN
 	1    5900 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 624FD62F
-P 8050 3900
-F 0 "R1" H 7900 3900 50  0000 L CNN
-F 1 "1k" V 8050 3850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8050 3900 50  0001 C CNN
-F 3 "~" H 8050 3900 50  0001 C CNN
-	1    8050 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 8050 4950 3    50   Input ~ 0
 GND
 Wire Wire Line
 	8050 4150 8050 4550
-Connection ~ 8050 4150
 $Comp
 L Jumper:Jumper_2_Open BT1
 U 1 1 62508B6C
@@ -722,10 +704,10 @@ Text GLabel 8300 2900 0    50   Input ~ 0
 DETECT
 NoConn ~ 10300 1700
 $Comp
-L Device:R_Small R3
+L Device:R_Small R2
 U 1 1 6252A94A
 P 8400 3100
-F 0 "R3" H 8250 3100 50  0000 L CNN
+F 0 "R2" H 8250 3100 50  0000 L CNN
 F 1 "4.7k" H 8450 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 3100 50  0001 C CNN
 F 3 "~" H 8400 3100 50  0001 C CNN
