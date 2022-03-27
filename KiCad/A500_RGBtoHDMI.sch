@@ -430,7 +430,7 @@ NoConn ~ 7450 2750
 NoConn ~ 7450 2850
 Text GLabel 8700 3850 0    50   Input ~ 0
 VERSION
-Text GLabel 8700 2700 0    50   Input ~ 0
+Text GLabel 8100 2700 0    50   Input ~ 0
 CSYNC
 Text GLabel 8700 2100 0    50   Output ~ 0
 B3_3V3
@@ -502,7 +502,6 @@ NoConn ~ 10300 3450
 NoConn ~ 10300 3550
 NoConn ~ 10300 3650
 NoConn ~ 10300 3850
-NoConn ~ 10300 4050
 $Comp
 L A500_RGBtoHDMI:LM1117-3.3 U3
 U 1 1 6246B1F1
@@ -742,4 +741,22 @@ Wire Wire Line
 Connection ~ 8400 2900
 Wire Wire Line
 	8400 2900 8300 2900
+NoConn ~ 10300 4050
+Text GLabel 10300 4050 2    50   Input ~ 0
+VSYNC
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 62568E0B
+P 8100 2300
+F 0 "J3" V 8300 2300 50  0000 R CNN
+F 1 "Conn_01x01" V 8200 2650 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 8100 2300 50  0001 C CNN
+F 3 "~" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2500 8100 2700
+Wire Wire Line
+	8700 2700 8100 2700
 $EndSCHEMATC
