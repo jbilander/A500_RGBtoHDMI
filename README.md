@@ -32,6 +32,99 @@ My RGBtoHDMI-adapter-board design for A500.
 
 ***
 
+<a href="images/A500_RGBtoHDMI_pic11.jpg">
+<img src="images/A500_RGBtoHDMI_pic11.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic13.jpg">
+<img src="images/A500_RGBtoHDMI_pic13.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic12.jpg">
+<img src="images/A500_RGBtoHDMI_pic12.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic14.jpg">
+<img src="images/A500_RGBtoHDMI_pic14.jpg" width="517" height="388">
+</a>
+<a href="images/A500_RGBtoHDMI_pic30.jpg">
+<img src="images/A500_RGBtoHDMI_pic30.jpg" width="192" height="256">
+</a>
+
+***
+
+### Build
+
+<a href="images/A500_RGBtoHDMI_pic15.jpg">
+<img src="images/A500_RGBtoHDMI_pic15.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic17.jpg">
+<img src="images/A500_RGBtoHDMI_pic17.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic18.jpg">
+<img src="images/A500_RGBtoHDMI_pic18.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic19.jpg">
+<img src="images/A500_RGBtoHDMI_pic19.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic20.jpg">
+<img src="images/A500_RGBtoHDMI_pic20.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic21.jpg">
+<img src="images/A500_RGBtoHDMI_pic21.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic22.jpg">
+<img src="images/A500_RGBtoHDMI_pic22.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic23.jpg">
+<img src="images/A500_RGBtoHDMI_pic23.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic24.jpg">
+<img src="images/A500_RGBtoHDMI_pic24.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic25.jpg">
+<img src="images/A500_RGBtoHDMI_pic25.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic26.jpg">
+<img src="images/A500_RGBtoHDMI_pic26.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic27.jpg">
+<img src="images/A500_RGBtoHDMI_pic27.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic28.jpg">
+<img src="images/A500_RGBtoHDMI_pic28.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic29.jpg">
+<img src="images/A500_RGBtoHDMI_pic29.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic31.jpg">
+<img src="images/A500_RGBtoHDMI_pic31.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic32.jpg">
+<img src="images/A500_RGBtoHDMI_pic32.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic33.jpg">
+<img src="images/A500_RGBtoHDMI_pic33.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic35.jpg">
+<img src="images/A500_RGBtoHDMI_pic35.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic36.jpg">
+<img src="images/A500_RGBtoHDMI_pic36.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic37.jpg">
+<img src="images/A500_RGBtoHDMI_pic37.jpg" width="256" height="192">
+</a>
+<a href="images/A500_RGBtoHDMI_pic38.jpg">
+<img src="images/A500_RGBtoHDMI_pic38.jpg" width="256" height="192">
+</a>
+
+***
+
 Video: <br />
 
 https://drive.google.com/file/d/1ksP-LVyoxUxEtZK_JW-vs8qUCuZv387j/view?usp=sharing
