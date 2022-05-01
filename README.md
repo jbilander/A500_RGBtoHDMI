@@ -142,7 +142,7 @@ https://github.com/hoglet67/RGBtoHDMI/wiki/Quick-Start-Guide#installing-the-soft
 To auto configure for correct profile and operation with single button, copy the files in the appropriate Amiga folder into the root folder, overwriting any existing files.
 
 <a href="images/RPi_firmware_and_config.jpg">
-<img src="images/RPi_firmware_and_config.jpg" width="512" height="384">
+<img src="images/RPi_firmware_and_config.jpg" width="512" height="304">
 </a>
 
 ***
