@@ -131,6 +131,21 @@ https://drive.google.com/file/d/1ksP-LVyoxUxEtZK_JW-vs8qUCuZv387j/view?usp=shari
 
 ***
 
+### RPi Zero configuration
+
+Follow the instructions here:
+
+https://github.com/hoglet67/RGBtoHDMI/wiki/Quick-Start-Guide#installing-the-software
+
+...and then...
+
+To auto configure for correct profile and operation with single button, copy the files in the appropriate Amiga folder into the root folder, overwriting any existing files.
+
+<a href="images/RPi_firmware_and_config.jpg">
+<img src="images/RPi_firmware_and_config.jpg" width="512" height="384">
+</a>
+
+***
 
 BOM Rev. 1A
 ---------
@@ -152,3 +167,5 @@ JTAG | JTAG Pin Header | 2.54mm pitch | (Optional) Hold JTAG-header against hole
 PWR | VCC/GND-header | 2.00mm pitch | A 2.54mm two-pin header fits surface mounted on pads
 
 ***
+
+Happy Hackin'
