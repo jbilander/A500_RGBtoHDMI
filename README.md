@@ -19,6 +19,19 @@ My RGBtoHDMI-adapter-board design for A500.
 
 ***
 
+<a href="images/A500_RGBtoHDMI_pic8.png">
+<img src="images/A500_RGBtoHDMI_pic8.png" width="256" height="144">
+</a>
+<a href="images/A500_RGBtoHDMI_pic9.png">
+<img src="images/A500_RGBtoHDMI_pic9.png" width="283" height="144">
+</a>
+<br />
+<a href="images/A500_RGBtoHDMI_pic10.png">
+<img src="images/A500_RGBtoHDMI_pic10.png" width="545" height="305">
+</a>
+
+***
+
 Video: <br />
 
 https://drive.google.com/file/d/1ksP-LVyoxUxEtZK_JW-vs8qUCuZv387j/view?usp=sharing
