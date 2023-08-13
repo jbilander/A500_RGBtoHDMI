@@ -155,6 +155,7 @@ U1 | 2x24 Round Female Pin Header Connector | 1x40 2.54mm pitch | Cut down to 2x
 U2 | XC9572XL-10VQ64 | VQFP-64 | Xilinx 72-mc CPLD 52 I/O
 U3 | LM1117-3.3 or AMS1117-3.3 | SOT-223 | 3.3V 1A Low Drop-Out (LDO) Voltage regulator.
 U4 | 2x24 Single Row Male Pin Connector Strip | 1x40 2.54mm pitch | Cut down to 2x24 Pin
+J1 | 2X20 Pin Double Row Straight Female Pin Header 2.54mm pitch | 2x20 2.54mm pitch | [2x20 Pin Header](https://www.aliexpress.com/item/32854215610.html)
 R1 | 1k | 0805 | Pull-down resistor (SPDATA)
 R2 | 4.7k | 0805 | Pull-down resistor (DETECT)
 C1 | 10uF | 1206 | 5V Decoupling capacitor
@@ -165,6 +166,13 @@ C5 | 0.1uF = 100nF | 0805 | 3V3 Decoupling capacitor
 C6 | 0.1uF = 100nF | 0805 | 3V3 Decoupling capacitor
 JTAG | JTAG Pin Header | 2.54mm pitch | (Optional) Hold JTAG-header against holes while programming is enough.
 PWR | VCC/GND-header | 2.00mm pitch | A 2.54mm two-pin header fits surface mounted on pads
+
+Cable:
+Ribbon FPV HDMI-Compatible Connector Flexible Flat Cable<br />
+https://www.aliexpress.com/item/4000014554460.html<br />
+* FFC 10cm (or whatever length you prefer, cable on pic is 10cm)<br />
+* Connector-A4<br />
+* Connector-C1<br />
 
 ***
 
